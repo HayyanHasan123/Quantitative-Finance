@@ -1,4 +1,3 @@
-
 def npv(cf,r):
     npv = 0
     for i in range(len(cf)):
@@ -48,4 +47,5 @@ if st.button("CALCULATE"):
         st.error(f"Error: {e}")
 
 st.markdown("---")
+
 st.caption("Developed by Syed Muhammad Hayyan Hasan")
